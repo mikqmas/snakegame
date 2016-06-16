@@ -17,7 +17,7 @@ function View(){
     this.board.snake.turn(keyPress);
   });
 
-  setInterval(this.step.bind(this), 500);
+  setInterval(this.step.bind(this), 200);
 }
 
 View.prototype.setupBoard = function (){
